@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConcreMind Soluções em Concreto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="menu-container">
+            <button class="hamburger">☰</button>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#">Página Inicial</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Bem-vindo ao nosso site!</h1>
+        <p>Na ConcreMind, unimos expertise técnica e criatividade para transformar desafios em estruturas que inspiram confiança. Somos especialistas em soluções inteligentes em concreto, oferecendo projetos personalizados, tecnologia avançada e durabilidade incomparável. Seja para construções comerciais, industriais ou residenciais, nossa mente está focada em entregar qualidade, eficiência e resultados que superam expectativas. Pense forte. Pense ConcreMind.</p>
+    </main>
+
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
